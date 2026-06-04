@@ -1,0 +1,39 @@
+# ═══════════════════════════════════════════════════════════════════
+# Image Captioning — CNN-LSTM (MS-COCO)
+# RTX 5060 Ti · Blackwell · CUDA 12.8
+# Python ≥ 3.11
+# ═══════════════════════════════════════════════════════════════════
+#
+# ── STEP 1 — Install PyTorch nightly (cu128) FIRST ───────────────
+# The RTX 5060 Ti (Blackwell, sm_120) requires PyTorch nightly
+# built against CUDA 12.8.  Run this once before `pip install -r`:
+#
+#   pip install --pre torch torchvision torchaudio \
+#       --index-url https://download.pytorch.org/whl/nightly/cu128
+#
+# ── STEP 2 — Install the rest ────────────────────────────────────
+#   pip install -r requirements.txt
+#
+# ═══════════════════════════════════════════════════════════════════
+
+# ── NLP ──────────────────────────────────────────────────────────
+nltk>=3.8.1
+
+# ── Vision / Image I/O ───────────────────────────────────────────
+Pillow>=10.3.0
+
+# ── COCO utilities ───────────────────────────────────────────────
+pycocotools>=2.0.7      # COCO annotation reader + RLE mask utils
+                        # Requires: gcc, g++, cython (system packages)
+
+# ── Numeric ──────────────────────────────────────────────────────
+numpy>=1.26.0
+
+# ── Training utilities ───────────────────────────────────────────
+tqdm>=4.66.0
+matplotlib>=3.8.0
+
+# ── API server ───────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9     # required for FastAPI file uploads

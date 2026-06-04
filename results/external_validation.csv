@@ -1,0 +1,13 @@
+filename,base_greedy,base_beam,var_greedy,var_beam
+imagen_prueba_1.jpg,a desk with a laptop and a laptop on it,a laptop computer sitting on top of a desk .,a desk with a computer and a keyboard,a desk with a keyboard and a monitor
+imagen_prueba_10.jpg,a car is parked on the side of a road .,a car parked on the side of a road .,a car driving down a road with a car on the side .,a car that is driving down the road .
+imagen_prueba_11.jpg,a vase with flowers in a vase on a table .,a vase filled with flowers on a table .,a vase with flowers on a table with a vase on it .,a vase filled with flowers on top of a table .
+imagen_prueba_12.jpg,a woman holding a kite in the grass .,a woman holding an umbrella in the rain .,a woman holding an umbrella in the rain .,a woman walking down a street holding an umbrella .
+imagen_prueba_2.jpg,a woman sitting on a bench with a cell phone .,a woman sitting on a bench with a cell phone .,a group of people standing around a skateboard .,a group of people standing next to each other .
+imagen_prueba_3.jpg,a plate of food with a knife and a fork .,a white plate topped with a plate of food .,a plate of food with a fork and a knife .,a white plate topped with a plate of food .
+imagen_prueba_4.jpg,a black cat laying on a bed with a blanket .,a black and white cat laying on a bed .,a black cat laying on a bed with a blanket .,a black cat laying on top of a bed .
+imagen_prueba_5.jpg,a man is sitting on a laptop computer .,a man sitting at a desk with a laptop computer .,a man is sitting at a table with a laptop computer .,a man sitting at a table with a laptop computer .
+imagen_prueba_6.jpg,a table with a cup of coffee and a cup of coffee .,a wooden table topped with plates of food .,a table with a glass of wine and a glass of wine .,a wooden table topped with a plate of food .
+imagen_prueba_7.jpg,a bird sitting on a wooden bench in a park .,a bird sitting on top of a wooden bench .,a person holding a bird on a table .,a close up of a person holding a bird .
+imagen_prueba_8.jpg,a woman is standing in a kitchen with a stove and a stove .,a woman standing in a kitchen preparing food .,a woman standing in a kitchen with a stove and a stove .,a woman standing in a kitchen preparing food .
+imagen_prueba_9.jpg,a brown dog is standing in the grass .,a brown and white dog standing in a field .,a dog is standing on a leash on a leash .,a dog laying on top of a grass covered field .

@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+data/coco/
+data/train2014/
+data/val2014/
+checkpoints/best_model_gru_variant.ckpt
+checkpoints/base_model_gru_variant.ckpt
+checkpoints/checkpoint_epoch_*.ckpt
+*.log
+.idea/
+checkpoints/epoch_*.ckpt
+.idea/
+checkpoints/*.ckpt
+checkpoints/*.ckpt
